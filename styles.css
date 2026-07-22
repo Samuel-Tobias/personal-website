@@ -56,13 +56,14 @@ a:hover {
 }
 
 .site-header .portrait {
-  width: 148px;
-  height: 148px;
+  width: 150px;
+  height: 225px;
   object-fit: cover;
-  border-radius: 50%;
+  object-position: 50% 25%;
+  border-radius: 14px;
   flex-shrink: 0;
   filter: contrast(1.02);
-  box-shadow: 0 1px 2px rgba(28, 27, 26, 0.12), 0 6px 20px rgba(28, 27, 26, 0.1);
+  box-shadow: 0 1px 2px rgba(31, 42, 51, 0.14), 0 6px 20px rgba(31, 42, 51, 0.12);
 }
 
 .site-header h1 {
@@ -285,8 +286,8 @@ footer {
   }
 
   .site-header .portrait {
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 195px;
   }
 
   .site-header h1 {
